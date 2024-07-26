@@ -1,7 +1,7 @@
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
     "Helvetica Neue", sans-serif;
-  margin: 0px;
+  margin: px;
   height: 100vh;
 }
 
@@ -11,23 +11,13 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #efefef;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   text-decoration: none;
-  height: 3rem;
+  height: 5rem;
   border-bottom: 0.02rem solid lightgray;
 }
-/* .box{
-  padding-top: 3rem;
-   padding-bottom: .02rem;
-   text-align: center;
-   width: 50rem;
-   color: red;
-   padding-left: 5rem;
 
-  background-color: white;
- border-bottom: .2rem solid lightgrey;
-} */
 .card {
   width: 18rem;
 }
@@ -39,8 +29,9 @@ main {
 nav {
   border-right: 0.02rem solid lightgray;
   background-color: #efefef;
-  padding-right: 4rem;
+  padding-right: 1%;
   height: 100vh;
+  width: 15rem;
 }
 
 .container {
@@ -78,4 +69,13 @@ nav {
 }
 a:hover {
   color: black;
+}
+.about {
+  padding-top: 2rem;
+  font-size: large;
+  color: grey;
+}
+.seperator {
+  border: 2px solid lightgrey;
+  padding-bottom: 10px;
 }
