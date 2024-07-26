@@ -17,7 +17,18 @@ header {
   height: 3rem;
   border-bottom: 0.02rem solid lightgray;
 }
-.card{
+/* .box{
+  padding-top: 3rem;
+   padding-bottom: .02rem;
+   text-align: center;
+   width: 50rem;
+   color: red;
+   padding-left: 5rem;
+
+  background-color: white;
+ border-bottom: .2rem solid lightgrey;
+} */
+.card {
   width: 18rem;
 }
 
@@ -41,7 +52,6 @@ nav {
   font-size: smaller;
 }
 
-
 #menu {
   list-style: none;
   display: flex;
@@ -55,9 +65,9 @@ nav {
 
 .btn {
   text-decoration: none;
-   border: 1px solid black; 
-  padding-block: .2rem;
-  padding-inline: .5rem;
+  border: 1px solid black;
+  padding-block: 0.2rem;
+  padding-inline: 0.5rem;
   background-color: white;
   color: lightgrey;
 }
@@ -66,6 +76,6 @@ nav {
   background-color: #007aff;
   color: white;
 }
-a:hover{
+a:hover {
   color: black;
 }
