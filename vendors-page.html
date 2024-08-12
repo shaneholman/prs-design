@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .sidebar {
+        height: 100vh;
+        background-color: #efefef;
+        padding: 20px;
+      }
+     
+      
+    </style>
   </head>
   <body>
     <header class="container-fluid">
@@ -26,32 +35,38 @@
 
     <main>
       <div>
-        <nav>
+        <nav class="sidebar">
+          <a href="createNewVendor.html" class=""
+            ><svg class="bi me-2" width="16" height="16 " fill="currentColor">
+              <use xlink:href="./node_modules/bootstrap-icons/bootstrap-icons.svg#plus-circle-fill" /></svg
+            >Create New</a
+          >
+          <h6 class="container-fluid p-3">Purchase</h6>
           <ul id="menu">
             <li>
-              <a href="">
-                <svg class="bi" width="32" height="32" fill="currentColor">
+              <a href="" class="">
+                <svg class="bi me-2" width="16" height="16" fill="currentColor">
                   <use xlink:href="./node_modules/bootstrap-icons/bootstrap-icons.svg#cart2" /></svg
                 >Requests</a
               >
             </li>
             <li>
-              <a href="">
-                <svg class="bi" width="32" height="32" fill="currentColor">
+              <a href="" class="">
+                <svg class="bi me-2" width="16" height="16" fill="currentColor">
                   <use xlink:href="./node_modules/bootstrap-icons/bootstrap-icons.svg#grid" /></svg
                 >Products</a
               >
             </li>
             <li>
               <a href="">
-                <svg class="bi" width="32" height="32" fill="currentColor">
+                <svg class="bi me-2" width="16" height="16" fill="currentColor">
                   <use xlink:href="./node_modules/bootstrap-icons/bootstrap-icons.svg#building" /></svg
                 >Vendors</a
               >
             </li>
             <li>
               <a href="">
-                <svg class="bi" width="32" height="32" fill="currentColor">
+                <svg class="bi me-2" width="16" height="16" fill="currentColor">
                   <use xlink:href="./node_modules/bootstrap-icons/bootstrap-icons.svg#people" /></svg
                 >Users</a
               >
@@ -60,17 +75,84 @@
         </nav>
       </div>
 
-      <section class="container-fluid about">
+      <section class="container-fluid about p-4">
         <div class="justify-content-between d-flex">
-          <h2 class="border-bottom 10rem">Vendors</h2>
-          <a class="btn btn-primary" href=""
-            ><svg class="bi" width="25" height="45" fill="currentColor">
+          <h2 class="p-2">Vendors</h2>
+          <a class="btn btn-primary m-2" href="createNewVendor.html"
+            ><svg class="bi me-1" width="20" height="40" fill="currentColor">
               <use xlink:href="./node_modules/bootstrap-icons/bootstrap-icons.svg#plus" /></svg
             >Create a Vendor</a
           >
         </div>
+        <hr />
 
-        <div class="d-flex gap-5 flex-wrap bg-light">
+        <div class="d-flex gap-4 flex-wrap bg-light m-3 justify-content-around">
+          <div class="card" style="width: 15rem">
+            <div class="card-body">
+              <h5 class="card-title">Test Vendor Name</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Vendor abbr.</h6>
+              <p>
+                1234 abc street<br />
+                Cincinnati, OH 45201<br />
+                (800) 555-5511<br />
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 15rem">
+            <div class="card-body">
+              <h5 class="card-title">Test Vendor Name</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Vendor abbr.</h6>
+              <p>
+                1234 abc street<br />
+                Cincinnati, OH 45201<br />
+                (800) 555-5511<br />
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 15rem">
+            <div class="card-body">
+              <h5 class="card-title">Test Vendor Name</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Vendor abbr.</h6>
+              <p>
+                1234 abc street<br />
+                Cincinnati, OH 45201<br />
+                (800) 555-5511<br />
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 15rem">
+            <div class="card-body">
+              <h5 class="card-title">Test Vendor Name</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Vendor abbr.</h6>
+              <p>
+                1234 abc street<br />
+                Cincinnati, OH 45201<br />
+                (800) 555-5511<br />
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 15rem">
+            <div class="card-body">
+              <h5 class="card-title">Test Vendor Name</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Vendor abbr.</h6>
+              <p>
+                1234 abc street<br />
+                Cincinnati, OH 45201<br />
+                (800) 555-5511<br />
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 15rem">
+            <div class="card-body">
+              <h5 class="card-title">Test Vendor Name</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Vendor abbr.</h6>
+              <p>
+                1234 abc street<br />
+                Cincinnati, OH 45201<br />
+                (800) 555-5511<br />
+              </p>
+            </div>
+          </div>
           <div class="card" style="width: 15rem">
             <div class="card-body">
               <h5 class="card-title">Test Vendor Name</h5>
