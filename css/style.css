@@ -33,7 +33,7 @@ nav {
   width: 15rem;
 }
 
-/* .container {
+.container {
   padding-left: 4rem;
   padding-right: 4rem;
 }
@@ -48,7 +48,7 @@ nav {
   flex-direction: column;
   gap: 1rem;
 }
-*/ #menu a {
+ #menu a {
   text-decoration: none;
 }
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
